@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<CarDealer>
+<brands>
+	<brand nazwa="1">Opel</brand>
+	<brand nazwa="2">Renault</brand>
+	<brand nazwa="3">Citroen</brand>
+	<brand nazwa="4">Mazda</brand>
+</brands>
+
+<gearbox>
+	<skrzynia id="1">manualna</skrzynia>
+	<skrzynia id="2">polautomatyczna</skrzynia>
+	<skrzynia id="3">automatyczna</skrzynia>
+</gearbox>
+
+<engins>
+<engin engin_id="1">
+<capacity>1.0</capacity>
+<power>85</power>
+</engin>
+
+<engin engin_id="2">
+<capacity>1.2</capacity>
+<power>120</power>
+</engin>
+
+<engin engin_id="3">
+<capacity>1.4</capacity>
+<power>145</power>
+</engin>
+
+<engin engin_id="4">
+<capacity>1.6</capacity>
+<power>160</power>
+</engin>
+
+<engin engin_id="5">
+<capacity>1.8</capacity>
+<power>180</power>
+</engin>
+
+<engin engin_id="6">
+<capacity>2.0</capacity>
+<power>200</power>
+</engin>
+
+	<engin engin_id="7">
+	<capacity>2.3</capacity>
+	<power>230</power>
+</engin>
+</engins>
+
+<bodys>
+	<body body_id="1">hatchback</body>
+	<body body_id="2">kombi</body>
+	<body body_id="3">coupe</body>
+	<body body_id="4">sedan</body>
+</bodys>
+
+	<cars>
+			<car id ="1"> 
+				<brand>1</brand> 
+				<type>osobowy</type>
+				<model>CLA</model>
+				<engine>2</engine>
+				<body>2	</body>
+				<year>2019</year>
+				<mileage>150000</mileage>
+				<gearbox>2</gearbox>
+				<price>50000.00</price>
+			</car>
+			
+			<car id ="2"> 
+				<brand>3</brand> 
+				<type>osobowy</type>
+				<model>A8</model>
+				<engine>4</engine>
+				<body>3</body>
+				<year>2017</year>
+				<mileage>100000</mileage>
+				<gearbox>3</gearbox>
+				<price>100000.00</price>
+			</car>
+			
+			<car id ="3"> 
+				<brand>4</brand> 
+				<type>dostawczy</type>
+				<model>A55</model>
+				<engine>5</engine>
+				<body>2</body>
+				<year>2014</year>
+				<mileage>1000</mileage>
+				<gearbox>1</gearbox>
+				<price>10000.00</price>
+			</car>
+			
+			<car id ="4"> 
+				<brand>1</brand> 
+				<type>osobowy</type>
+				<model>b5</model>
+				<engine>6</engine>
+				<body>4</body>
+				<year>2018</year>
+				<mileage>200000</mileage>
+				<gearbox>1</gearbox>
+				<price>55000.00</price>
+			</car>
+			
+			<car id ="5"> 
+				<brand>2</brand> 
+				<type>dostawczy</type>
+				<model>c2</model>
+				<engine>2</engine>
+				<body>2</body>
+				<year>2013</year>
+				<mileage>55000</mileage>
+				<gearbox>2</gearbox>
+				<price>14000.00</price>
+			</car>
+			
+			<car id ="6"> 
+				<brand>2</brand> 
+				<type>osobowy</type>
+				<model>Megane</model>
+				<engine>5</engine>
+				<body>2</body>
+				<year>2019</year>
+				<mileage>20000</mileage>
+				<gearbox>1</gearbox>
+				<price>60000.00</price>
+			</car>
+			
+			<car id ="7"> 
+				<brand>4</brand> 
+				<type>osobowy</type>
+				<model>a12</model>
+				<engine>5</engine>
+				<body>2</body>
+				<year>2018</year>
+				<mileage>150000</mileage>
+				<gearbox>3</gearbox>
+				<price>90000.00</price>
+			</car>
+			
+			<car id ="8"> 
+				<brand>1</brand> 
+				<type>dostawczy</type>
+				<model>A77</model>
+				<engine>7</engine>
+				<body>1</body>
+				<year>2018</year>
+				<mileage>40000</mileage>
+				<gearbox>3</gearbox>
+				<price>200000.00</price>
+			</car>
+			
+			<car id ="9"> 
+				<brand>2</brand> 
+				<type>osobowy</type>
+				<model>cy22</model>
+				<engine>6</engine>
+				<body>4</body>
+				<year>2012</year>
+				<mileage>300000</mileage>
+				<gearbox>1</gearbox>
+				<price>20000.00</price>
+			</car>
+			
+			<car id ="10"> 
+				<brand>4</brand> 
+				<type>osobowy</type>
+				<model>h10</model>
+				<engine>6</engine>
+				<body>3</body>
+				<year>2017</year>
+				<mileage>112400</mileage>
+				<gearbox>3</gearbox>
+				<price>25000.00</price>
+			</car>
+			
+			
+
+	</cars>
+
+</CarDealer>
+
+
